@@ -1078,6 +1078,19 @@ section.contact .contact_content .contact_content_box button:hover {
     cursor: pointer;
 }
 
+section.footer {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
 @media (max-width: 1200px) {
     .hero {
         width: 100vw;
